@@ -23,16 +23,3 @@ A simple and user-friendly Todo List application built using HTML, CSS, and Java
 4. Select the start and end dates for the task.
 5. Click the "Add Todo" button to add the task to the list.
 6. Use the "Edit," "Save," "Done," and "Delete" buttons to manage your tasks.
-
-## Installation
-No installation is required. Just open the `index.html` file in a web browser.
-
-## Live Demo
-You can find a live demo of the application [here](link-to-your-live-demo).
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Inspiration for the project came from various online resources.
-- Thanks to the contributors and mentors who provided guidance and support.
