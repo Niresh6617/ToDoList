@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient background */
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* height: 80vh; */
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+#addTodoBtn {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.editBtn {
+    background-color: #ffc107; /* Yellow */
+}
+
+.saveBtn {
+    background-color: #007bff; /* Blue */
+    color: white;
+}
+
+.deleteBtn {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.doneBtn {
+    background-color: #6c757d; /* Gray */
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
